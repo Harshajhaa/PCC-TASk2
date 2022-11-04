@@ -1,0 +1,59 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-image: url(./12953559_Scene-24.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header{
+    position:absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.img{
+    height: 120px;
+    width: 120px;
+}
+
+.name{
+    margin-left: 30px;
+    position: relative;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    height:fit-content;
+    margin-top: 20%;
+    background-color:rgba(114, 192, 192, 0.5);
+    text-align: center;
+}
+
+.container:hover{
+    box-shadow: rgba(253, 253, 189, 0.56) 0px 22px 70px 4px;
+
+}
+
+.text{
+    color: red;
+}
+
+footer{
+    position: fixed;
+    bottom: 5px;
+    text-align: center;
+    color:aliceblue;
+    width: 100%;
+}
+
+
+
+
+  
